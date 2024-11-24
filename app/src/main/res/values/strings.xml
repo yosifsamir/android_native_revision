@@ -60,4 +60,5 @@
     <string name="go_to_network_page">Go To Network Page</string>
     <string name="add">Add</string>
     <string name="add_name">Add Name</string>
+    <string name="go_to_exoplayer_page">Go To ExoPlayer Page</string>
 </resources>
