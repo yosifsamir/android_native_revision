@@ -115,10 +115,15 @@ class SecondFragment : Fragment() {
         }
 
         binding.goToCoroutinePageBtn.setOnClickListener {
+            findNavController().navigate(R.id.action_SecondFragment_to_coroutineFragment)
 
         }
         binding.goToFileBtn.setOnClickListener {
             findNavController().navigate(R.id.action_SecondFragment_to_FileFragment)
+        }
+
+        binding.goToNetworkBtn.setOnClickListener {
+            findNavController().navigate(R.id.action_SecondFragment_to_NetworkFragment)
         }
 
     }

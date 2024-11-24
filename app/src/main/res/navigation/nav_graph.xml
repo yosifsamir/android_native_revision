@@ -30,6 +30,9 @@
         <action
             android:id="@+id/action_SecondFragment_to_FileFragment"
             app:destination="@id/FileFragment" />
+        <action
+            android:id="@+id/action_SecondFragment_to_NetworkFragment"
+            app:destination="@id/NetworkFragment" />
     </fragment>
     <fragment
         android:id="@+id/CoroutineFragment"
@@ -41,4 +44,9 @@
         android:name="com.example.myapplication.FileFragment"
         android:label="fragment_file"
         tools:layout="@layout/fragment_file" />
+    <fragment
+        android:id="@+id/NetworkFragment"
+        android:name="com.example.myapplication.NetworkFragment"
+        android:label="fragment_network"
+        tools:layout="@layout/fragment_network" />
 </navigation>
