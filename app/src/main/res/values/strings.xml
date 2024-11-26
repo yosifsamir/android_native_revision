@@ -61,4 +61,6 @@
     <string name="add">Add</string>
     <string name="add_name">Add Name</string>
     <string name="go_to_exoplayer_page">Go To ExoPlayer Page</string>
+    <string name="go_to_alarm_page">Go To Alarm Page</string>
+    <string name="go_to_network_connectivity">Go To Network Connectivity</string>
 </resources>

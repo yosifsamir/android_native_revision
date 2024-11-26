@@ -36,6 +36,12 @@
         <action
             android:id="@+id/action_SecondFragment_to_ExoPlayerFragment"
             app:destination="@id/ExoPlayerFragment" />
+        <action
+            android:id="@+id/action_SecondFragment_to_AlarmFragment"
+            app:destination="@id/AlarmFragment" />
+        <action
+            android:id="@+id/action_SecondFragment_to_NetworkConnectivityFragment"
+            app:destination="@id/NetworkConnectivityFragment" />
     </fragment>
     <fragment
         android:id="@+id/CoroutineFragment"
@@ -57,4 +63,14 @@
         android:name="com.example.myapplication.ExoPlayerFragment"
         android:label="fragment_exo_player"
         tools:layout="@layout/fragment_exo_player" />
+    <fragment
+        android:id="@+id/AlarmFragment"
+        android:name="com.example.myapplication.alarm.AlarmFragment"
+        android:label="fragment_alarm"
+        tools:layout="@layout/fragment_alarm" />
+    <fragment
+        android:id="@+id/NetworkConnectivityFragment"
+        android:name="com.example.myapplication.NetworkConnectivityFragment"
+        android:label="fragment_network_connectivity"
+        tools:layout="@layout/fragment_network_connectivity" />
 </navigation>
