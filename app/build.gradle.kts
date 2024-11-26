@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.example.myapplication"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.example.myapplication"
@@ -48,6 +48,10 @@ dependencies {
     implementation(libs.androidx.navigation.ui.ktx)
     implementation(libs.retrofit)
     implementation(libs.retrofitGson)
+    implementation(libs.media3Exoplayer)
+    implementation(libs.media3ExoplayerDash)
+    implementation(libs.media3ExoplayerUI)
+
 
 
     testImplementation(libs.junit)

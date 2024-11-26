@@ -125,6 +125,9 @@ class SecondFragment : Fragment() {
         binding.goToNetworkBtn.setOnClickListener {
             findNavController().navigate(R.id.action_SecondFragment_to_NetworkFragment)
         }
+        binding.goToExpPlayerBtn.setOnClickListener {
+            findNavController().navigate(R.id.action_SecondFragment_to_ExoPlayerFragment)
+        }
         binding.goToAlarmBtn.setOnClickListener {
             findNavController().navigate(R.id.action_SecondFragment_to_AlarmFragment)
         }
