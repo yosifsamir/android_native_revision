@@ -42,6 +42,9 @@
         <action
             android:id="@+id/action_SecondFragment_to_NetworkConnectivityFragment"
             app:destination="@id/NetworkConnectivityFragment" />
+        <action
+            android:id="@+id/action_SecondFragment_to_ServiceFragment"
+            app:destination="@id/ServiceFragment" />
     </fragment>
     <fragment
         android:id="@+id/CoroutineFragment"
@@ -73,4 +76,9 @@
         android:name="com.example.myapplication.NetworkConnectivityFragment"
         android:label="fragment_network_connectivity"
         tools:layout="@layout/fragment_network_connectivity" />
+    <fragment
+        android:id="@+id/ServiceFragment"
+        android:name="com.example.myapplication.service.ServiceFragment"
+        android:label="fragment_service"
+        tools:layout="@layout/fragment_service" />
 </navigation>

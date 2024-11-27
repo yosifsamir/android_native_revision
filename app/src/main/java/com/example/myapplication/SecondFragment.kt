@@ -134,6 +134,9 @@ class SecondFragment : Fragment() {
         binding.goToNetwrokConnectivityBtn.setOnClickListener {
             findNavController().navigate(R.id.action_SecondFragment_to_NetworkConnectivityFragment)
         }
+        binding.goToServiceBtn.setOnClickListener {
+            findNavController().navigate(R.id.action_SecondFragment_to_ServiceFragment)
+        }
 
     }
 
