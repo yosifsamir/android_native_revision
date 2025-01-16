@@ -45,6 +45,46 @@
         <action
             android:id="@+id/action_SecondFragment_to_ServiceFragment"
             app:destination="@id/ServiceFragment" />
+        <action
+            android:id="@+id/action_SecondFragment_to_SurfaceViewFragment"
+            app:destination="@id/SurfaceViewFragment" />
+        <action
+            android:id="@+id/action_SecondFragment_to_SqliteFragment"
+            app:destination="@id/SqliteFragment" />
+        <action
+            android:id="@+id/action_SecondFragment_to_IntentFragment"
+            app:destination="@id/IntentFragment" />
+        <action
+            android:id="@+id/action_SecondFragment_to_HomeThreadsFragment"
+            app:destination="@id/HomeThreadsFragment" />
+        <action
+            android:id="@+id/action_SecondFragment_to_CustomViewsFragment"
+            app:destination="@id/CustomViewsFragment" />
+        <action
+            android:id="@+id/action_SecondFragment_to_PageViewFragment"
+            app:destination="@id/PageViewFragment" />
+        <action
+            android:id="@+id/action_SecondFragment_to_TikTokFragment"
+            app:destination="@id/TikTokFragment" />
+        <action
+            android:id="@+id/action_SecondFragment_to_ThemeFragment"
+            app:destination="@id/ThemeFragment" />
+        <action
+            android:id="@+id/action_SecondFragment_to_MyGalleryFragment"
+            app:destination="@id/MyGalleryFragment" />
+        <action
+            android:id="@+id/action_SecondFragment_to_SocketFragment"
+            app:destination="@id/SocketFragment" />
+        <action
+            android:id="@+id/action_SecondFragment_to_DeepLinkFragment"
+            app:destination="@id/DeepLinkFragment"
+            app:popUpTo="@id/SecondFragment"
+            app:popUpToInclusive="true"
+            app:popUpToSaveState="true"
+            app:restoreState="true" />
+        <action
+            android:id="@+id/action_SecondFragment_to_AnimationsFragment"
+            app:destination="@id/AnimationsFragment" />
     </fragment>
     <fragment
         android:id="@+id/CoroutineFragment"
@@ -81,4 +121,77 @@
         android:name="com.example.myapplication.service.ServiceFragment"
         android:label="fragment_service"
         tools:layout="@layout/fragment_service" />
+    <fragment
+        android:id="@+id/SurfaceViewFragment"
+        android:name="com.example.myapplication.surfaceView.SurfaceViewFragment"
+        android:label="fragment_surface_view"
+        tools:layout="@layout/fragment_surface_view" />
+    <fragment
+        android:id="@+id/SqliteFragment"
+        android:name="com.example.myapplication.sqlite.SqliteFragment"
+        android:label="fragment_sqlite"
+        tools:layout="@layout/fragment_sqlite" />
+    <fragment
+        android:id="@+id/IntentFragment"
+        android:name="com.example.myapplication.intent.IntentFragment"
+        android:label="fragment_intent"
+        tools:layout="@layout/fragment_intent" />
+    <fragment
+        android:id="@+id/HomeThreadsFragment"
+        android:name="com.example.myapplication.threads.HomeThreadsFragment"
+        android:label="HomeThreadsFragment">
+        <action
+            android:id="@+id/action_HomeThreadsFragment_to_ThreadFragment"
+            app:destination="@id/ThreadFragment" />
+        <action
+            android:id="@+id/action_HomeThreadsFragment_to_RxFragment"
+            app:destination="@id/RxFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ThreadFragment"
+        android:name="com.example.myapplication.threads.ThreadFragment"
+        android:label="fragment_thread"
+        tools:layout="@layout/fragment_thread" />
+    <fragment
+        android:id="@+id/RxFragment"
+        android:name="com.example.myapplication.threads.RxFragment"
+        android:label="fragment_rx"
+        tools:layout="@layout/fragment_rx" />
+    <fragment
+        android:id="@+id/CustomViewsFragment"
+        android:name="com.example.myapplication.customViews.CustomViewsFragment"
+        android:label="fragment_custom_views"
+        tools:layout="@layout/fragment_custom_views" />
+    <fragment
+        android:id="@+id/PageViewFragment"
+        android:name="com.example.myapplication.pageView.PageViewFragment"
+        android:label="fragment_page_view"
+        tools:layout="@layout/fragment_page_view" />
+    <fragment
+        android:id="@+id/TikTokFragment"
+        android:name="com.example.myapplication.pageView.TikTokFragment"
+        android:label="TikTokFragment" />
+    <fragment
+        android:id="@+id/ThemeFragment"
+        android:name="com.example.myapplication.theme.ThemeFragment"
+        android:label="ThemeFragment" />
+    <fragment
+        android:id="@+id/MyGalleryFragment"
+        android:name="com.example.myapplication.myGallery.MyGalleryFragment"
+        android:label="fragment_my_gallery"
+        tools:layout="@layout/fragment_my_gallery" />
+    <fragment
+        android:id="@+id/SocketFragment"
+        android:name="com.example.myapplication.socket.SocketFragment"
+        android:label="SocketFragment" />
+    <fragment
+        android:id="@+id/DeepLinkFragment"
+        android:name="com.example.myapplication.intent.DeepLinkFragment"
+        android:label="DeepLinkFragment" />
+    <fragment
+        android:id="@+id/AnimationsFragment"
+        android:name="com.example.myapplication.animations.AnimationsFragment"
+        android:label="AnimationsFragment" />
+
+
 </navigation>

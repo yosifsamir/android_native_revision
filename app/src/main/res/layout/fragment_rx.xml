@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".threads.RxFragment">
+
+    <Button
+        android:id="@+id/observableBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Observable"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/observableResultLabelTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result:-"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@id/observableBtn"
+        app:layout_constraintTop_toBottomOf="@id/observableBtn" />
+
+    <TextView
+        android:id="@+id/observableResultTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/black"
+        android:textStyle="normal"
+        android:layout_marginStart="12dp"
+        tools:text="My Result"
+        app:layout_constraintStart_toEndOf="@id/observableResultLabelTxt"
+        app:layout_constraintTop_toTopOf="@id/observableResultLabelTxt" />
+
+    <Button
+        android:id="@+id/singleBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Single"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/observableResultLabelTxt" />
+    <TextView
+        android:id="@+id/singleLabelTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result:-"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@id/singleBtn"
+        app:layout_constraintTop_toBottomOf="@id/singleBtn" />
+
+    <TextView
+        android:id="@+id/singleResultTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/black"
+        android:textStyle="normal"
+        android:layout_marginStart="12dp"
+        tools:text="My Result"
+        app:layout_constraintStart_toEndOf="@id/singleLabelTxt"
+        app:layout_constraintTop_toTopOf="@id/singleLabelTxt" />
+
+    <Button
+        android:id="@+id/testSingleEmitBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:text="Test Single Emit"
+        app:layout_constraintStart_toEndOf="@+id/singleBtn"
+        app:layout_constraintTop_toTopOf="@+id/singleBtn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

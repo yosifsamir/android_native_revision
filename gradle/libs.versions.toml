@@ -11,6 +11,7 @@ constraintlayout = "2.1.4"
 navigationFragmentKtx = "2.8.2"
 navigationUiKtx = "2.8.2"
 
+
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
@@ -26,6 +27,8 @@ retrofitGson = { group = "com.squareup.retrofit2", name = "converter-gson", vers
 media3Exoplayer = { group = "androidx.media3", name = "media3-exoplayer", version = "1.5.0" }
 media3ExoplayerDash = { group = "androidx.media3", name = "media3-exoplayer-dash", version = "1.5.0" }
 media3ExoplayerUI = { group = "androidx.media3", name = "media3-ui", version = "1.5.0" }
+rxjava = { group = "io.reactivex.rxjava3", name = "rxjava", version = "3.1.5" }
+rxAndroid = { group = "io.reactivex.rxjava3", name = "rxandroid", version = "3.0.2" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

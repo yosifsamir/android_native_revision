@@ -6,4 +6,18 @@
     </style>
 
     <style name="Theme.MyApplication" parent="Base.Theme.MyApplication" />
+
+    <style name="BoldText" parent="">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:textColor">#FF0000</item>
+<!--        The below code work in certain conditions in coding like overrideTras... function-->
+<!--        <item name="android:windowEnterAnimation">@anim/fade_enter</item>-->
+<!--        <item name="android:windowExitAnimation">@anim/fade_exit</item>-->
+<!--        <item name="android:fragmentOpenEnterAnimation">@anim/fade_enter</item>-->
+<!--        <item name="android:fragmentFadeEnterAnimation">@anim/fade_enter</item>-->
+<!--        <item name="android:fragmentCloseEnterAnimation">@anim/fade_exit</item>-->
+<!--        <item name="android:fragmentCloseExitAnimation">@anim/fade_exit</item>-->
+    </style>
 </resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".intent.IntentFragment">
+
+    <Button
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone number" />
+    <Button
+        android:id="@+id/calender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calender" />
+    <Button
+        android:id="@+id/intentActivityUsingActionBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open Intent Activity Using ACTION" />
+    <Button
+        android:id="@+id/intentActivityBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open Intent Activity" />
+    <Button
+        android:id="@+id/intentActivityWithResultBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open Intent Activity With Result" />
+    <TextView
+        android:id="@+id/resultAreaTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result Area:-"
+        android:textColor="#F50057"
+        android:textStyle="bold"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:background="@drawable/border_rounded_background"
+        android:paddingTop="3dp">
+        <TextView
+            android:id="@+id/resultDataTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Result"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            android:textColor="@color/black"
+            tools:visibility= "visible" />
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/image"
+            app:srcCompat="@mipmap/ic_launcher" />
+
+    </LinearLayout>
+
+</LinearLayout>

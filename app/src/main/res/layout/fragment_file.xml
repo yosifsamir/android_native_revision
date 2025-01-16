@@ -38,7 +38,7 @@
         android:layout_marginTop="24dp"
         android:layout_marginEnd="10dp"
         android:autofillHints="true"
-        android:background="@drawable/background_edit_text"
+        android:background="@drawable/border_rounded_background"
         android:inputType="text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

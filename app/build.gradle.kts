@@ -15,6 +15,9 @@ android {
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+        vectorDrawables {
+            useSupportLibrary = true
+        }
     }
 
     buildTypes {
@@ -36,6 +39,12 @@ android {
     buildFeatures {
         viewBinding = true
     }
+
+    packaging {
+        resources {
+            excludes += "/META-INF/{AL2.0,LGPL2.1}"
+        }
+    }
 }
 
 dependencies {
@@ -51,7 +60,8 @@ dependencies {
     implementation(libs.media3Exoplayer)
     implementation(libs.media3ExoplayerDash)
     implementation(libs.media3ExoplayerUI)
-
+    implementation(libs.rxjava)
+    implementation(libs.rxAndroid)
 
 
     testImplementation(libs.junit)

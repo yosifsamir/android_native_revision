@@ -25,144 +25,253 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/play"
-            app:layout_constraintTop_toBottomOf="@id/button_second"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/button_second" />
 
         <Button
             android:id="@+id/stopSongBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/stop"
-            app:layout_constraintTop_toBottomOf="@id/playSongBtn"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/playSongBtn" />
 
         <Button
             android:id="@+id/pauseSongBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/pause"
-            app:layout_constraintTop_toBottomOf="@id/stopSongBtn"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/stopSongBtn" />
 
         <Button
             android:id="@+id/resumeSongBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/resume"
-            app:layout_constraintTop_toBottomOf="@id/pauseSongBtn"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/pauseSongBtn" />
 
         <View
             android:id="@+id/viewLine"
             android:layout_width="match_parent"
             android:layout_height="2dp"
+            android:layout_marginTop="10dp"
             android:background="@color/black"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/resumeSongBtn"
-            android:layout_marginTop="10dp" />
+            app:layout_constraintTop_toBottomOf="@id/resumeSongBtn" />
 
         <Button
             android:id="@+id/playSongManuallyBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
             android:text="@string/play"
-            app:layout_constraintTop_toBottomOf="@id/viewLine"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginTop="10dp"/>
+            app:layout_constraintTop_toBottomOf="@id/viewLine" />
+
         <Button
             android:id="@+id/stopSongManuallyBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/stop"
-            app:layout_constraintTop_toBottomOf="@id/playSongManuallyBtn"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/playSongManuallyBtn" />
 
         <Button
             android:id="@+id/pauseSongManuallyBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/pause"
-            app:layout_constraintTop_toBottomOf="@id/stopSongManuallyBtn"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/stopSongManuallyBtn" />
 
         <Button
             android:id="@+id/resumeSongManuallyBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/resume"
-            app:layout_constraintTop_toBottomOf="@id/pauseSongManuallyBtn"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/pauseSongManuallyBtn" />
 
         <Button
             android:id="@+id/goToCoroutinePageBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/go_to_coroutine_page"
-            app:layout_constraintTop_toBottomOf="@id/resumeSongManuallyBtn"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/resumeSongManuallyBtn" />
 
         <Button
             android:id="@+id/goToFileBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/go_to_file_page"
-            app:layout_constraintTop_toBottomOf="@id/goToCoroutinePageBtn"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/goToCoroutinePageBtn" />
 
         <Button
             android:id="@+id/goToNetworkBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/go_to_network_page"
-            app:layout_constraintTop_toBottomOf="@id/goToCoroutinePageBtn"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/goToCoroutinePageBtn" />
 
         <Button
             android:id="@+id/goToExpPlayerBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/go_to_exoplayer_page"
-            app:layout_constraintTop_toBottomOf="@id/goToNetworkBtn"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/goToNetworkBtn" />
+
         <Button
             android:id="@+id/goToAlarmBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/go_to_alarm_page"
-            app:layout_constraintTop_toBottomOf="@id/goToExpPlayerBtn"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/goToExpPlayerBtn" />
 
         <Button
             android:id="@+id/goToNetwrokConnectivityBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/go_to_network_connectivity"
-            app:layout_constraintTop_toBottomOf="@id/goToAlarmBtn"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/goToAlarmBtn" />
+
         <Button
             android:id="@+id/goToServiceBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/go_to_service_page"
-            app:layout_constraintTop_toBottomOf="@id/goToNetwrokConnectivityBtn"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/goToNetwrokConnectivityBtn" />
 
+        <Button
+            android:id="@+id/goToSurfaceViewBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/to_surface_view"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/goToServiceBtn" />
 
+        <Button
+            android:id="@+id/goToSqlitePageBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/go_to_sqlite_page"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/goToSurfaceViewBtn" />
+
+        <Button
+            android:id="@+id/goToIntentPageBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/go_to_intent_page"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/goToSqlitePageBtn" />
+
+        <Button
+            android:id="@+id/goToHomeThreadsBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/go_to_threads_page"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/goToIntentPageBtn" />
+
+        <Button
+            android:id="@+id/goToCustomViewsBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/go_to_custom_views"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/goToHomeThreadsBtn" />
+
+        <Button
+            android:id="@+id/goToViewPagerBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/go_to_viewpager2_page"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/goToCustomViewsBtn" />
+
+        <Button
+            android:id="@+id/goToTikTokBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/go_to_tiktok_page"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/goToCustomViewsBtn" />
+
+        <Button
+            android:id="@+id/goToThemeBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/go_to_theme_page"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/goToTikTokBtn" />
+
+        <Button
+            android:id="@+id/goToGalleryBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/go_to_gallery_page"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/goToTikTokBtn" />
+
+        <Button
+            android:id="@+id/goToSocketBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/go_to_socket_page"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/goToGalleryBtn" />
+
+        <Button
+            android:id="@+id/goToDeepLinkBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/go_to_deep_link_page"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/goToSocketBtn" />
+
+        <Button
+            android:id="@+id/goToAnimationsBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/go_to_animations_page"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/goToDeepLinkBtn" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.core.widget.NestedScrollView>

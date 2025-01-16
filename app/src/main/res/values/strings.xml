@@ -64,4 +64,23 @@
     <string name="go_to_alarm_page">Go To Alarm Page</string>
     <string name="go_to_network_connectivity">Go To Network Connectivity</string>
     <string name="go_to_service_page">Go To Service Page</string>
+    <string name="to_surface_view">Go To Surface View Page</string>
+    <string name="sqlite">SQLite</string>
+    <string name="go_to_sqlite_page">Go To Sqlite Page</string>
+    <string name="go_to_intent_page">Go To Intent Page</string>
+    <string name="name">Name:-</string>
+    <string name="city">City:-</string>
+    <string name="save_patient_data">Save Patient Data</string>
+    <string name="get_all_patients_information">Get All Patients Information</string>
+    <string name="title_activity_intent">IntentActivity</string>
+    <string name="image">Image</string>
+    <string name="go_to_threads_page">Go To Threads Page</string>
+    <string name="go_to_custom_views">Go To Custom Views Page</string>
+    <string name="go_to_viewpager2_page">Go To ViewPager2 Page</string>
+    <string name="go_to_tiktok_page">Go To TikTok Page</string>
+    <string name="go_to_theme_page">Go To Theme Page</string>
+    <string name="go_to_gallery_page">Go To Gallery Page</string>
+    <string name="go_to_socket_page">Go To Socket Page</string>
+    <string name="go_to_deep_link_page">Go To Deep Link Page</string>
+    <string name="go_to_animations_page">Go To Animations Page</string>
 </resources>

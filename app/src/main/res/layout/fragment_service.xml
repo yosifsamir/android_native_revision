@@ -41,6 +41,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Start JobScheduler" />
-
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bounded Service"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:id="@+id/startBoundedServiceBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Bounded Service" />
 
 </LinearLayout>
